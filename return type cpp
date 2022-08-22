@@ -1,0 +1,21 @@
+#include<iostream>
+using namespace std;
+int add(int valueOne, int vallueTwo );
+int main()
+{
+   int totalMarks = add(15,5);
+   int extraMarks =  2;
+    
+   
+   cout<<"ADD____"<<totalMarks+extraMarks<<endl;
+   cout<<"SUB____"<<totalMarks-extraMarks<<endl;	
+}
+int add(int valueOne, int valueTwo)
+{
+	int a;
+	int b;
+	a= valueOne;
+	b= valueTwo;
+	return a+b;
+	
+}
